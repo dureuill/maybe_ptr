@@ -9,7 +9,6 @@ public:
 
 private:
   std::unique_ptr<int> m_x;
-
 };
 
 int main()
