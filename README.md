@@ -8,7 +8,7 @@ It takes some inspiration from [Rust's Copy-On-Write `Cow` type](https://doc.rus
 
 # Basic usage
 
-```lang=cpp
+```cpp
 #include <maybe_ptr.h>
 
 int main()
@@ -29,7 +29,7 @@ You can use the provided CMake file to install the header in a system-wide direc
 
 ## Compiling the examples
 
-```
+```cmake
 cmake -Dmaybe_ptr_EXAMPLES=ON <src-dir> # from <build-dir>
 make
 ```
