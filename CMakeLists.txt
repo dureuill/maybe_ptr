@@ -6,12 +6,12 @@ include(ExternalProject)
 
 add_library(maybe_ptr INTERFACE)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 target_include_directories(maybe_ptr INTERFACE
   $<BUILD_INTERFACE:
-  $[CMAKE_CURRENT_SOURCE_DIR}/include
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
   >
 )
 
