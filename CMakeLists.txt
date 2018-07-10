@@ -20,11 +20,12 @@ install(
   DESTINATION include
 )
 
-option(maybe_ptr_TEST "Generate tests." OFF)
-if (maybe_ptr_TEST)
-  enable_testing()
-  add_subdirectory(tests)
-endif()
+# No tests at the moment
+#option(maybe_ptr_TEST "Generate tests." OFF)
+#if (maybe_ptr_TEST)
+#  enable_testing()
+#  add_subdirectory(tests)
+#endif()
 
 option(maybe_ptr_EXAMPLES "Generate examples." OFF)
 if (maybe_ptr_EXAMPLES)
