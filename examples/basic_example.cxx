@@ -1,6 +1,5 @@
-#include "maybe_ptr.h"
 #include <iostream>
-
+#include <maybe_ptr.h>
 
 class A
 {
